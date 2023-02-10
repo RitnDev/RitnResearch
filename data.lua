@@ -19,9 +19,17 @@ require ("prototypes.items")
 require ("prototypes.recipes")
 require ("prototypes.technology")
 ----------------------------------------
-RitnProtoItem("satellite").changePrototype("rocket_launch_product",{"unknow-space-object", 1000})
-RitnProtoItem("space-science-pack").changePrototype("rocket_launch_product", nil)
-RitnProtoItem("raw-fish").changePrototype("stack_size", 1000)
+local item = RitnProtoItem("satellite")
+item.prototype.rocket_launch_product = {"unknow-space-object", 1000}
+item:update()
+----
+item = RitnProtoItem("space-science-pack")
+item.prototype.rocket_launch_product = nil
+item:update()
+----
+item = RitnProtoItem("raw-fish")
+item.prototype.stack_size = 1000
+item:update()
 ----------------------------------------
 -- adaptation new research
 RitnProtoTech("stack-inserter"):disable(true)
