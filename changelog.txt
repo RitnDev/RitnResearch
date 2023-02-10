@@ -1,0 +1,191 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.8.6
+Date: 04.02.2023
+  Fixes:
+    - fix technology : lumberjack-electric-energy-distribution-3
+---------------------------------------------------------------------------------------------------
+Version: 0.8.5
+Date: 04.01.2023
+  Fixes:
+    - Fix control -> module : disco-science
+---------------------------------------------------------------------------------------------------
+Version: 0.8.4
+Date: 04.01.2023
+  Changes:
+    - Compatibilité avec RitnLib 0.7.3
+---------------------------------------------------------------------------------------------------
+Version: 0.8.3
+Date: 02.01.2023
+  Changes:
+    - Changement du coût des technologies de Dectorio.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.2
+Date: 01.01.2023
+  Fixes:
+    - Fix de compatibilité à RitnLib 0.7.2
+  Changes:
+    - Adaptations des mods optionnels.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.1
+Date: 28.12.2022
+  Changes:
+    - Change : gui - filter_group_tab
+    - Change item-subgroup de silo-control-combinator.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.0
+Date: 28.12.2022
+  Changes:
+    - Compatibilité avec RitnLib 0.7
+  Fixes:
+    - Fix des couleurs de disco science.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.6
+Date: 08.03.2022
+  Fixes:
+    - Fix de l'ajustement des pack avancée mécanique (encore trop chère).
+---------------------------------------------------------------------------------------------------
+Version: 0.7.5
+Date: 08.03.2022
+  Fixes:
+    - Fix de l'ajustement des pack avancée (trop chère).
+---------------------------------------------------------------------------------------------------
+Version: 0.7.4
+Date: 07.03.2022
+  Changes:
+    - Ajustement de la difficulté des recettes packs de sciences mécanique et chimique au même niveau que la pack de science avancée électronique.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.3
+Date: 05.03.2022
+  Changes:
+    - Ajout des recettes de combustible solide sur la recherche des packs de science chimique avancée.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.2
+Date: 04.03.2022
+  Fixes:
+    - Fix : item-subgroup de silo-control-combinator déplacé avec les autres systèmes logiques.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.1
+Date: 04.03.2022
+  Fixes:
+    - Fix : ajout de pack de bucheron dans la recette des packs chimique.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 21.02.2022
+  Changes:
+    - Compatibilité avec RitnLib 0.6
+    - Compatibilité avec les RitnMods en 0.7
+    - Adaptation des technologies.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+Date: 03.01.2022
+  Fixes:
+    - Fix : prérequis de la technologie "laser-turret".
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+Date: 03.01.2022
+  Fixes:
+    - Fix : prérequis de la technologie "military science pack".
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 31.12.2021
+  Fixes:
+    - fix : Couleur de la fumée dans les usines chimiques pour les packs avancées.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 31.12.2021
+  Fixes:
+    - fix : ajouts des slots dans les laboratoires pour la prise en compte des packs avancées.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 28.12.2021
+  Changes:
+    - Changement les technologies (electroniques).
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 28.12.2021
+  Changes:
+    - Changement les technologies (chimique).
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 27.12.2021
+  Fixes:
+    - Changement des dernières pack de sciences utilitaires qui resté sur des technologies.
+      Elles sont remplacé par des packs de science chimique avancée.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 22.12.2021
+  Notes:
+    - Compatibilité avec RitnLib 0.5.5
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 12.11.2021
+  Notes:
+    - Compatibilité avec RitnLib 0.5.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 16.03.2021
+  Changes:
+    - Suppression de la recette "stone-wall" en départ de partie.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 22.02.2021
+  Notes:
+    - Mod stable.
+  Changes:
+    - Mise à jour de control.lua
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 19.02.2021
+  Notes:
+    - Compatibilité à la version 1.1 du jeu. (graphics)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 23.01.2021
+  Notes:
+    - Compatibilité à la version 1.1 du jeu.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 19.11.2020
+  Adds:
+    - Compatibilité avec le mod : CircuitControlledSilo.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 19.11.2020
+  Changes:
+    - L'arbre des technologies.
+  Adds:
+    - Ajout des pack de science avancées (mécanique, électronique et chimique).
+    - Ajout de la recette de la pack de science spatial.
+    - Ajout de l'objet spatial inconnu en retour d'un satellite.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 11.11.2020
+  Changes:
+    - Compatibilité avec RitnLib 0.3.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 17.08.2020
+  Fixes:
+    - Prise en compte de la recherche Spidertron par le mod (suppression des packs de science de production et utilitaire).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 15.08.2020
+  Notes:
+    - Passage en 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 22.07.2020
+  Changes:
+    - Suppression des packs de science de production et utilitaire sur les recherches de bonus de capacité des bras robotisés.
+    - Suppression de la liquéfaction de carburant solide.
+    - Passage à 10 du nombre de lourd avec le craquage gaz - lourd.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 27.04.2020
+  Changes:
+    - Changements mineurs.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 27.04.2020
+  Changes:
+    - Passage en version 0.18 du jeu.
