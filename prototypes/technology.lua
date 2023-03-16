@@ -98,4 +98,56 @@ data:extend(
       order = "c-a"
     },
 
+
+    {
+        type = "technology",
+        name = "ritn-tech-sandbag",
+        localised_name = {"technology-name.ritn-tech-sandbag"},
+        localised_description = {"technology-description.ritn-tech-sandbag"},
+        icon = "__RitnResearch__/graphics/icons/sandbag.png",
+        icon_size = 64, icon_mipmaps = 4,
+        effects = { 
+            {type = "unlock-recipe", recipe = "sandbag"},
+            {type = "unlock-recipe", recipe = "empty-sandbag"}, 
+        },
+        unit =
+        {
+            count = 2000,
+            ingredients = {
+                {"miner-science-pack", 2},
+                {"chemical-science-pack", 1},
+                {"advanced-chemical-science-pack", 1},
+                {"space-science-pack", 1},
+            },
+            time = 60
+        },
+        prerequisites = {"space-science-pack"},
+        order = "c-a-a"
+    },
+    {
+        type = "technology",
+        name = "ritn-tech-stone-bag",
+        localised_name = {"technology-name.ritn-tech-stone-bag"},
+        localised_description = {"technology-description.ritn-tech-stone-bag"},
+        icon = "__RitnResearch__/graphics/icons/stone-bag.png",
+        icon_size = 64, icon_mipmaps = 4,
+        effects = { 
+            {type = "unlock-recipe", recipe = "stone-bag"},
+            {type = "unlock-recipe", recipe = "empty-stone-bag"}, 
+        },
+        unit =
+        {
+            count = 2000,
+            ingredients = {
+                {"miner-science-pack", 2},
+                {"chemical-science-pack", 1},
+                {"advanced-chemical-science-pack", 1},
+                {"space-science-pack", 1},
+            },
+            time = 60
+        },
+        prerequisites = {"space-science-pack"},
+        order = "c-a-b"
+    },
+
 })
